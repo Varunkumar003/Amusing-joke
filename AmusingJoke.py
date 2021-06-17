@@ -4,9 +4,6 @@ secondLetter = sys.stdin.readline().strip()
 thirdLetter = sys.stdin.readline().strip()
 s = firstLetter + secondLetter
 
-
-
-
 if len(s) != len(thirdLetter):      
     print("NO")
 else:
